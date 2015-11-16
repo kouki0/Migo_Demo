@@ -33,6 +33,29 @@
 							<f:SimpleForm columnsL="1" editable="false" emptySpanL="4" emptySpanM="4" id="iconTabFilter1form2" labelSpanL="3" labelSpanM="3"
 								layout="ResponsiveGridLayout" minWidth="1024">
 <<<<<<< HEAD
+								<f:content>
+									<core:ExtensionPoint name="extIconTabFilterForm2"/>
+								</f:content>
+							</f:SimpleForm>
+						</content>
+					</IconTabFilter>
+					<core:ExtensionPoint name="extIconTabFilter"/>
+				</items>
+			</IconTabBar>
+			<core:ExtensionPoint name="extDetail"/>
+		</content>
+		<footer id="detailFooter">
+			<Toolbar id="detailToolbar">
+				<content>
+					<ToolbarSpacer id="toolbarSpacer"></ToolbarSpacer>
+					<Button icon="sap-icon://action" id="actionButton" press="openActionSheet"></Button>
+				</content>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
+=======
+<<<<<<< HEAD
 									<Label  text="hello"></Label>
 										<Text  text="hello"></Text>
 =======
@@ -58,3 +81,4 @@
 		</footer>
 	</Page>
 </mvc:View>
+>>>>>>> 5a3e38481c7434b7cf28bc398218482395ad8ee8
