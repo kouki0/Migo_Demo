@@ -1,0 +1,18 @@
+{
+  "Component.js": "1447673577110",
+  "css/style.css": "1447673577112",
+  "i18n/messageBundle.properties": "1447673577113",
+  "index.html": "1447673577110",
+  "localIndex.html": "1447673577111",
+  "mock_preview_sapui5.html": "1447681228415",
+  "model/metadata.xml": "1447673577727",
+  "MyRouter.js": "1447673577111",
+  "view/App.controller.js": "1447673577114",
+  "view/App.view.xml": "1447673577114",
+  "view/Detail.controller.js": "1447673577115",
+  "view/Detail.view.xml": "1447673577115",
+  "view/Master.controller.js": "1447673577116",
+  "view/Master.view.xml": "1447673721664",
+  "view/NotFound.controller.js": "1447673577117",
+  "view/NotFound.view.xml": "1447673577117"
+}
