@@ -1,24 +1,6 @@
 {
   "run": [
     {
-<<<<<<< HEAD
-      "filePath": "/Migo_Demo/localIndex.html",
-      "previewMode": 0,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [],
-      "_metadata": {
-        "runnerId": "webapprunner",
-        "id": 1827106,
-        "displayName": "New Web Application 2"
-      }
-    },
-    {
-=======
->>>>>>> 46f62bd360ff8b0d3e11976355ea81fe153d5a61
       "filePath": "/Migo_Demo/index.html",
       "previewMode": 0,
       "dataMode": 1,
@@ -29,8 +11,13 @@
       "urlParameters": [],
       "_metadata": {
         "runnerId": "webapprunner",
+<<<<<<< HEAD
+        "id": 2075528,
+        "displayName": "New Web Application 4"
+=======
         "id": 3200988,
         "displayName": "New Web Application 3"
+>>>>>>> branch 'master' of https://github.com/kouki0/Migo_Demo.git
       }
     }
   ]

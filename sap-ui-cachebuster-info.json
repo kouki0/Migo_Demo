@@ -4,24 +4,10 @@
   "i18n/messageBundle.properties": "1447682219474",
   "index.html": "1447682219468",
   "localIndex.html": "1447682219463",
+  "mock_preview_sapui5.html": "1447683755231",
   "model/metadata.xml": "1447682219464",
   "MyRouter.js": "1447682219475",
-<<<<<<< HEAD
-  "preview_hidden.html": "1447682449471",
-=======
-<<<<<<< HEAD
-  "preview_hidden.html": "1447682324091",
-  "README.md": "1447682219466",
-  "view/App.controller.js": "1447682219467",
-  "view/App.view.xml": "1447682219460",
-  "view/Detail.controller.js": "1447682219462",
-  "view/Detail.view.xml": "1447682219464",
-  "view/Master.controller.js": "1447682219461",
-  "view/Master.view.xml": "1447682219465",
-  "view/NotFound.controller.js": "1447682219466",
-  "view/NotFound.view.xml": "1447682219472"
-=======
->>>>>>> 72eece5c54896a957d827ae27e4e1735c1d6f1d6
+  "preview_hidden.html": "1447683576712",
   "README.md": "1447682219466",
   "view/App.controller.js": "1447682219467",
   "view/App.view.xml": "1447682219460",
@@ -30,11 +16,5 @@
   "view/Master.controller.js": "1447682219461",
   "view/Master.view.xml": "1447682219465",
   "view/NotFound.controller.js": "1447682219466",
-  "view/NotFound.view.xml": "1447682219472",
-<<<<<<< HEAD
-  "mock_preview_sapui5.html": "1447682493178"
-=======
-  "preview_hidden.html": "1447682272474"
->>>>>>> 46f62bd360ff8b0d3e11976355ea81fe153d5a61
->>>>>>> 72eece5c54896a957d827ae27e4e1735c1d6f1d6
+  "view/NotFound.view.xml": "1447682219472"
 }
