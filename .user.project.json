@@ -29,35 +29,8 @@
       "urlParameters": [],
       "_metadata": {
         "runnerId": "webapprunner",
-        "id": 3043948,
-        "displayName": "New Web Application 1"
-      }
-    },
-    {
-      "filePath": "/MIGO/index.html",
-      "previewMode": 0,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [],
-      "_metadata": {
-        "runnerId": "webapprunner",
-        "id": 212946,
-        "displayName": "New Web Application"
-      }
-    },
-    {
-      "filePath": "/MIGO/index.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "urlParameters": null,
-      "_metadata": {
-        "runnerId": "qunitrunner",
-        "id": 9358662,
-        "displayName": "New Unit Test"
+        "id": 3200988,
+        "displayName": "New Web Application 3"
       }
     }
   ]

@@ -89,55 +89,6 @@
 							</f:SimpleForm>
                         </content>
                     </IconTabFilter>
-                    <IconTabFilter 
-                        id="iconTabFilter2" 
-                        key="" 
-                        icon="sap-icon://enter-more">
-                        <content>
-							<f:SimpleForm 
-								id="iconTabFilter2form" 
-								minWidth="1024" 
-								editable="false" 
-								layout="ResponsiveGridLayout" 
-								labelSpanL="3" 
-								labelSpanM="3" 
-								emptySpanL="4" 
-								emptySpanM="4" 
-								columnsL="1">
-								<f:content>
-									<Label 
-										id="label4" 
-										text="">
-									</Label>
-									<Text 
-										id="text4"
-										text=""
-										maxLines="0">
-									</Text>
-									<Label 
-										id="label5" 
-										text="">
-									</Label>
-									<Text 
-										id="text5"
-										text=""
-										maxLines="0">
-									</Text>
-									<Label 
-										id="label6" 
-										text="">
-									</Label>
-									<Text 
-										id="text6"
-										text=""
-										maxLines="0">
-									</Text>
-									<core:ExtensionPoint 
-										name="extIconTabFilterForm2"/>
-								</f:content>
-							</f:SimpleForm>
-                        </content>
-                    </IconTabFilter>
     				<core:ExtensionPoint
     				    name="extIconTabFilter"/>
                 </items>
