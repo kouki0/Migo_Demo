@@ -4,7 +4,11 @@
   "i18n/messageBundle.properties": "1447682219474",
   "index.html": "1447682219468",
   "localIndex.html": "1447682219463",
+<<<<<<< HEAD
+  "mock_preview_sapui5.html": "1447684426204",
+=======
   "mock_preview_sapui5.html": "1447683997251",
+>>>>>>> 7d39f3b940fa1dc72fa0c9937abf5d2f5abfb5ab
   "model/metadata.xml": "1447682219464",
   "MyRouter.js": "1447682219475",
   "preview_hidden.html": "1447683576712",
@@ -12,7 +16,7 @@
   "view/App.controller.js": "1447682219467",
   "view/App.view.xml": "1447682219460",
   "view/Detail.controller.js": "1447682219462",
-  "view/Detail.view.xml": "1447682552666",
+  "view/Detail.view.xml": "1447684698748",
   "view/Master.controller.js": "1447682219461",
   "view/Master.view.xml": "1447682219465",
   "view/NotFound.controller.js": "1447682219466",

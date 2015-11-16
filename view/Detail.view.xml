@@ -1,115 +1,55 @@
-<mvc:View 
-    controllerName="MIGO.view.Detail"
-    xmlns="sap.m"
-    xmlns:core="sap.ui.core"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns:l="sap.ui.layout"
-    xmlns:f="sap.ui.layout.form">
-    <Page
-        id="detailPage" 
-        navButtonPress="onNavBack" 
-        title="{i18n>detailTitle}" 
-        showNavButton="{device>/isPhone}">
-        <content>
-            <ObjectHeader 
-                id="detailHeader" 
-				title="{Addnr}" 
-				number="{Ebeln}" 
-				numberUnit="{Ekgrp}"
-                introActive="false" 
-                titleActive="false" 
-                iconActive="false">
-                <attributes
-                    id="detailAttributes">                
-                    <ObjectAttribute 
-                        id="attribute" 
-                        text="{i18n>detailText}" 
-                        active="false">
-                    </ObjectAttribute>
-                </attributes>
-                <firstStatus
-                    id="detailStatus">
-                    <ObjectStatus 
-                        id="status" 
-						text="{Statu}">
-                    </ObjectStatus>
-                </firstStatus>
-            </ObjectHeader>
-            <IconTabBar 
-                id="idIconTabBar" 
-                expanded="{device>/isNoPhone}">
-    			<items 
-    			    id="detailsItems">
-                    <IconTabFilter 
-                        id="iconTabFilter1" 
-                        key="selfInfo" 
-                        icon="sap-icon://hint">
-                        <content>
-							<f:SimpleForm 
-								id="iconTabFilter1form" 
-								minWidth="1024" 
-								editable="false" 
-								layout="ResponsiveGridLayout" 
-								labelSpanL="3" 
-								labelSpanM="3" 
-								emptySpanL="4" 
-								emptySpanM="4" 
-								columnsL="1">
+<mvc:View controllerName="MIGO.view.Detail" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page id="detailPage" navButtonPress="onNavBack" showNavButton="{device]/isPhone}" title="{i18n]detailTitle}">
+		<content>
+			<ObjectHeader iconActive="false" id="detailHeader" introActive="false" number="{Ebeln}" numberUnit="{Ekgrp}" title="{Addnr}" titleActive="false">
+				<attributes id="detailAttributes">
+					<ObjectAttribute active="false" id="attribute" text="{i18n]detailText}"></ObjectAttribute>
+				</attributes>
+				<firstStatus id="detailStatus">
+					<ObjectStatus id="status" text="{Statu}"></ObjectStatus>
+				</firstStatus>
+			</ObjectHeader>
+			<IconTabBar expanded="{device]/isNoPhone}" id="idIconTabBar">
+				<items id="detailsItems">
+					<IconTabFilter icon="sap-icon://hint" id="iconTabFilter1" key="selfInfo">
+						<content>
+							<f:SimpleForm columnsL="1" editable="false" emptySpanL="4" emptySpanM="4" id="iconTabFilter1form" labelSpanL="3" labelSpanM="3"
+								layout="ResponsiveGridLayout" minWidth="1024">
 								<f:content>
-									<Label 
-										id="label1" 
-										text="Lifnr">
-									</Label>
-									<Text 
-										id="text1"
-										text="{Lifnr}"
-										maxLines="0">
-									</Text>
-									<Label 
-										id="label2" 
-										text="Waers">
-									</Label>
-									<Text 
-										id="text2"
-										text="{Waers}"
-										maxLines="0">
-									</Text>
-									<Label 
-										id="label3" 
-										text="Lifnr">
-									</Label>
-									<Text 
-										id="text3"
-										text="{Lifnr}"
-										maxLines="0">
-									</Text>
-									<core:ExtensionPoint 
-										name="extIconTabFilterForm1"/>
+									<Label id="label1" text="Lifnr"></Label>
+									<Text id="text1" maxLines="0" text="{Lifnr}"></Text>
+									<Label id="label2" text="Waers"></Label>
+									<Text id="text2" maxLines="0" text="{Waers}"></Text>
+									<Label id="label3" text="Lifnr"></Label>
+									<Text id="text3" maxLines="0" text="{Lifnr}"></Text>
+									<core:ExtensionPoint name="extIconTabFilterForm1"/>
 								</f:content>
 							</f:SimpleForm>
-                        </content>
-                    </IconTabFilter>
-    				<core:ExtensionPoint
-    				    name="extIconTabFilter"/>
-                </items>
-            </IconTabBar>
-    		<core:ExtensionPoint 
-    		    name="extDetail"/>
-        </content>
-        <footer
-            id="detailFooter">
-            <Toolbar id="detailToolbar">
-                <content>
-                    <ToolbarSpacer
-                        id="toolbarSpacer">
-                    </ToolbarSpacer>
-                    <Button 
-                        id="actionButton" 
-                        press="openActionSheet" 
-                        icon="sap-icon://action">
-                    </Button>
-                </content>
-            </Toolbar>
-        </footer>
-    </Page>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://document" iconColor="Positive" id="iconTabFilter2" key="selfInfo">
+						<content>
+							<f:SimpleForm columnsL="1" editable="false" emptySpanL="4" emptySpanM="4" id="iconTabFilter1form2" labelSpanL="3" labelSpanM="3"
+								layout="ResponsiveGridLayout" minWidth="1024">
+								<f:content>
+									<core:ExtensionPoint name="extIconTabFilterForm2"/>
+								</f:content>
+							</f:SimpleForm>
+						</content>
+					</IconTabFilter>
+					<core:ExtensionPoint name="extIconTabFilter"/>
+				</items>
+			</IconTabBar>
+			<core:ExtensionPoint name="extDetail"/>
+		</content>
+		<footer id="detailFooter">
+			<Toolbar id="detailToolbar">
+				<content>
+					<ToolbarSpacer id="toolbarSpacer"></ToolbarSpacer>
+					<Button icon="sap-icon://action" id="actionButton" press="openActionSheet"></Button>
+				</content>
+			</Toolbar>
+		</footer>
+	</Page>
 </mvc:View>
