@@ -6,6 +6,18 @@
   "localIndex.html": "1447682219463",
   "model/metadata.xml": "1447682219464",
   "MyRouter.js": "1447682219475",
+<<<<<<< HEAD
+  "preview_hidden.html": "1447682324091",
+  "README.md": "1447682219466",
+  "view/App.controller.js": "1447682219467",
+  "view/App.view.xml": "1447682219460",
+  "view/Detail.controller.js": "1447682219462",
+  "view/Detail.view.xml": "1447682219464",
+  "view/Master.controller.js": "1447682219461",
+  "view/Master.view.xml": "1447682219465",
+  "view/NotFound.controller.js": "1447682219466",
+  "view/NotFound.view.xml": "1447682219472"
+=======
   "README.md": "1447682219466",
   "view/App.controller.js": "1447682219467",
   "view/App.view.xml": "1447682219460",
@@ -16,4 +28,5 @@
   "view/NotFound.controller.js": "1447682219466",
   "view/NotFound.view.xml": "1447682219472",
   "preview_hidden.html": "1447682272474"
+>>>>>>> 46f62bd360ff8b0d3e11976355ea81fe153d5a61
 }
