@@ -1,4 +1,7 @@
 {
+<<<<<<< HEAD
+  "view/Detail.view.xml": "1447685972655"
+=======
   "Component.js": "1447682219467",
   "css/style.css": "1447682219459",
   "i18n/messageBundle.properties": "1447682219474",
@@ -21,4 +24,5 @@
   "view/Master.view.xml": "1447682219465",
   "view/NotFound.controller.js": "1447682219466",
   "view/NotFound.view.xml": "1447682219472"
+>>>>>>> 0002dc9d59925bfb9418e5fba7281008ea079956
 }

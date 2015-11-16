@@ -32,6 +32,11 @@
 						<content>
 							<f:SimpleForm columnsL="1" editable="false" emptySpanL="4" emptySpanM="4" id="iconTabFilter1form2" labelSpanL="3" labelSpanM="3"
 								layout="ResponsiveGridLayout" minWidth="1024">
+<<<<<<< HEAD
+									<Label  text="hello"></Label>
+										<Text  text="hello"></Text>
+=======
+>>>>>>> 0002dc9d59925bfb9418e5fba7281008ea079956
 								<f:content>
 									<core:ExtensionPoint name="extIconTabFilterForm2"/>
 								</f:content>
